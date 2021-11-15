@@ -38,7 +38,7 @@
 #include <asm/uaccess.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Johny");
+MODULE_AUTHOR("dileep");
 MODULE_DESCRIPTION(" work queue  driver");
 MODULE_VERSION("1.0.0");
 
