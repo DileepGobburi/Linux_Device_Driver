@@ -30,7 +30,7 @@
 #include <linux/mutex.h>   // step 1 for mutex
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Johny");
+MODULE_AUTHOR("Dileep");
 MODULE_DESCRIPTION(" major and minor  driver");
 MODULE_VERSION("1.0.0");
 
