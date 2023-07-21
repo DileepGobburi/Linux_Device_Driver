@@ -1,5 +1,5 @@
 
-obj-m +=mutex.o
+obj-m :=spin_trylock.o
 
 KDIR = /lib/modules/$(shell uname -r)/build
 
@@ -8,3 +8,6 @@ all:
 clean:
 	make -C $(KDIR) M=$(shell pwd) clean
 
+
+
+	
